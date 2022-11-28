@@ -14,7 +14,7 @@ from geometry import Point2D, Vector2D
 
 
 # Initialize the world and its window.
-world = World(60.0,45.0,800,600,topology='wrapped')
+world = World(60.0,45.0,2*800,2*600,topology='wrapped')
 flock = Flock(Bird,16,world)
 for _ in range(5):
     h = Herder(Point2D.random(world.bounds),Vector2D(0.0,1.0),flock,world)

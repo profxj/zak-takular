@@ -12,7 +12,7 @@ from Mouse import Mouse
 #
 
 # Initialize the world and its window.
-world = World(60.0,45.0,800,600,topology='wrapped')
+world = World(60.0,45.0,2*800,2*600,topology='wrapped')
 
 # Make the flock of chaser birds and place them into the world.
 flock = Flock(Chaser,25,world)

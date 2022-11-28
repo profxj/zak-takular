@@ -11,7 +11,7 @@ from Bird import Bird
 #
 
 # Initialize the world and its window.
-world = World(60.0,45.0,800,600,topology='wrapped')
+world = World(60.0,45.0,800*2,2*600,topology='wrapped')
 flock = Flock(Bird,25,world)
 world.addSystem(flock)
 

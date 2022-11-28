@@ -13,7 +13,7 @@ from geometry import Point2D,Vector2D
 #
 
 # Initialize the world and its window.
-world = World(60.0,45.0,800,600,topology='wrapped')
+world = World(60.0,45.0,2*800,2*600,topology='wrapped')
 
 # Make the flock of follower birds and then add a leader.
 flock = Flock(Follower,25,world)
